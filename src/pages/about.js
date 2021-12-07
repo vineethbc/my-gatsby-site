@@ -8,16 +8,16 @@ const pageStyles = {
 }
 
 // markup
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <main style={pageStyles}>
       <title>A Gatsby page</title>
-      My New Gatsby site
+      My first Gatsby site 
       <nav>
-        <a href="/about">About</a>
+        <a href="/">Home</a>
       </nav>
     </main>
   )
 }
 
-export default IndexPage
+export default AboutPage
