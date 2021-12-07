@@ -27,7 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         token: ${{ secrets.GH_TOKEN || github.token }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm install -g gatsby-cli
-    - run: npm run install --if-present
-    - run: npm run deploy --if-present
+    - run: | 
+        npm ci
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        npm install -g gatsby-cli
+        npm run install --if-present
+        npm run deploy --if-present
