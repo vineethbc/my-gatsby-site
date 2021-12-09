@@ -30,8 +30,8 @@ jobs:
         cache: 'npm'
     - run: | 
         npm ci
-        git config user.name Vineeth
-        git config user.email ${{ secrets.EMAIL }}
+        git config user.name github-actions
+        git config user.email github-actions@github.com
         npm install -g gatsby-cli
         npm run install --if-present
         npm run deploy --if-present
