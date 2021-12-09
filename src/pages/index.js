@@ -14,7 +14,7 @@ const IndexPage = () => {
       <title>A Gatsby page</title>
       My New Gatsby site
       <nav>
-        <a href="/about">About</a>
+        <a href="/my-gatsby-site/about">About</a>
       </nav>
     </main>
   )
