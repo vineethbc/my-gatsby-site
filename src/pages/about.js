@@ -1,22 +1,11 @@
-import * as React from "react"
+import * as React from 'react'
+import Layout from '../components/layout'
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
-// markup
 const AboutPage = () => {
   return (
-    <main style={pageStyles}>
-      <title>A Gatsby page</title>
-      My first Gatsby site 
-      <nav>
-        <a href="/my-gatsby-site">Home</a>
-      </nav>
-    </main>
+    <Layout pageTitle="About Me">
+      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    </Layout>
   )
 }
 
