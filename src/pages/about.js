@@ -14,7 +14,7 @@ const AboutPage = () => {
       <title>A Gatsby page</title>
       My first Gatsby site 
       <nav>
-        <a href="/">Home</a>
+        <a href="/my-gatsby-site">Home</a>
       </nav>
     </main>
   )
