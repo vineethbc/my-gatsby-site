@@ -3,7 +3,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
-  console.log(data.allMdx.nodes)
   return (
     <Layout pageTitle="My Blog Posts">
       {
