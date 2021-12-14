@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmy_gatsby_site=self.webpackChunkmy_gatsby_site||[]).push([[682],{518:function(e,t,a){a.r(t);var s=a(294),n={color:"#232129",padding:96,fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=function(){return s.createElement("main",{style:n},s.createElement("title",null,"A Gatsby page"),"My first Gatsby site",s.createElement("nav",null,s.createElement("a",{href:"/"},"Home")))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-16b0b0bafc1375cea9eb.js.map
