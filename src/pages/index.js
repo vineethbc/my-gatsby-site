@@ -12,7 +12,7 @@ const IndexPage = () => {
       <article>I am a Web developer with 10 years of experience & this is my first attempt to do a blog.</article>
       <br/>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="Developer"
         src="../images/hero.jpg"
       />
       <PhotoCredit link={'https://unsplash.com/photos/JdoofvUDUwc'} text='Fernando Hernandez' />

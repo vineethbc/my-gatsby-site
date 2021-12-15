@@ -15,6 +15,7 @@ module.exports = {
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-styled-components"
   ],
   pathPrefix: "/my-gatsby-site",
 };
