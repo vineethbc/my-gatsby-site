@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
+import PhotoCredit from '../../components/photoCredit' 
 
 const BlogPost = ({ data }) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
@@ -13,12 +14,7 @@ const BlogPost = ({ data }) => {
         image={image}
         alt={data.mdx.frontmatter.hero_image_alt}
       />
-      <p>
-        Photo Credit:{" "}
-        <a href={data.mdx.frontmatter.hero_image_credit_link} target="_blank" rel="noopener noreferrer">
-          {data.mdx.frontmatter.hero_image_credit_text}
-        </a>
-      </p>
+      <PhotoCredit link={data.mdx.frontmatter.hero_image_credit_link} text={data.mdx.frontmatter.hero_image_credit_text} />
       <MDXRenderer>
         {data.mdx.body}
       </MDXRenderer>

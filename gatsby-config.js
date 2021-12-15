@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://vineethbc.github.io/my-gatsby-site/",
-    title: "My Gatsby Site",
+    title: "a dev blog",
   },
   plugins: [
     "gatsby-plugin-image",
